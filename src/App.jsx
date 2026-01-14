@@ -13,6 +13,8 @@ import LearnuseRef from "./components/LearnuseRef"
 import CreationofcustomHooks from "./components/CreationofcustomHooks"
 import Learnconditioning from "./components/Learnconditioning"
 import Map from "./components/Map"
+import Loadingimages from "./components/Loadingimages"
+import Forms from "./components/Forms"
 const stockcontext=createContext()
 function App() {
   const getstock=(data)=>{
@@ -40,6 +42,8 @@ function App() {
      <CreationofcustomHooks/>
      <Learnconditioning/>
      <Map/>
+     <Loadingimages/>
+     <Forms/>
     </>
   )
 }
